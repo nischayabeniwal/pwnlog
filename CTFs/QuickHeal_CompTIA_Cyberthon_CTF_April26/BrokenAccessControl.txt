@@ -1,0 +1,4 @@
+ https://thunder-cipher.onrender.com/ 
+ 
+ 
+ after entering the side, whenever we change the endpoint from /profile?id=4 to id=1, id=2, id=3, it gives a piece of flag 

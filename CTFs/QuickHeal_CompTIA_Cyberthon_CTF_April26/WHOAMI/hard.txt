@@ -1,0 +1,43 @@
+1. **Transition to the Hard Archive**
+   After successfully solving the first archive, attention shifted to `hard.zip`, which was also password protected. Since the LinkedIn profile was the primary hint in the challenge, it was reasonable to assume that the second password would also be personally related to the organizer.
+
+2. **Reasoning Behind the Approach**
+   The clue strongly suggested that the password would not be random but instead tied to the organizer’s identity. Because the LinkedIn profile revealed the organizer’s real name, and the challenge text referenced Exploiter404 as the login name, both pieces of information became the main focus.
+
+3. **Password Cracking Strategy**
+   Instead of brute-forcing with generic wordlists, a targeted custom wordlist was created using combinations of:
+
+   * The organizer’s real name: **Kshitij**
+   * The CTF username: **Exploiter404 / 404**
+   * Possible merged variations of both identifiers
+
+   This method was effective because it narrowed the search to context-based password guesses directly related to the organizer.
+
+4. **Hit-and-Trial Discovery**
+   Through systematic testing of these generated combinations, the correct password for `hard.zip` was identified as:
+   **Kshitij404**
+
+5. **Password Meaning**
+   The password was a combination of:
+
+   * The organizer’s real first name: **Kshitij**
+   * The recognizable CTF identity element: **404**
+
+   This matched the challenge hint that the answer was “not something to guess, but something to know.”
+
+6. **Archive Extraction Success**
+   Once `hard.zip` was unlocked using `Kshitij404`, its contents were extracted successfully.
+
+7. **Flag Retrieval**
+   Inside the archive, a file named `flag.txt` was found, containing the final flag in the required format:
+   `ThunderCiphTer{...}`
+
+8. **Key Takeaway**
+   This part of the challenge demonstrated the importance of:
+
+   * Profiling challenge creators through OSINT clues
+   * Building custom targeted wordlists
+   * Combining contextual intelligence with logical password guessing
+
+9. **Final Insight**
+   The challenge rewarded careful investigation rather than blind brute force. By linking the organizer’s real identity with their CTF persona, the hidden password was uncovered efficiently.

@@ -1,0 +1,42 @@
+1. **Challenge Overview**
+   The challenge, titled **“Who Am I?”**, provided a downloadable file named `help.zip`. Inside it were two password-protected archives: one labeled easy and the other hard. The task was to identify the correct password and retrieve the hidden flag.
+
+2. **Initial Observation**
+   The challenge description mentioned that the organizer said:
+   *“I don’t use passwords from wordlists.”*
+   This suggested that the password would not be a common dictionary word and would likely be something personally connected to the organizer.
+
+3. **Hint Analysis**
+   A LinkedIn profile link was provided as the main clue:
+   `https://www.linkedin.com/in/kshitijgupta1806/`
+   This indicated that the organizer’s personal/professional information was relevant to solving the challenge.
+
+4. **Organizer Profile Investigation**
+   On examining the LinkedIn profile, we found that the organizer was associated with **ThunderCipher** and was actively working on it.
+   This made it clear that the password was likely related to the event name or project name rather than a random phrase.
+
+5. **Password Deduction Logic**
+   Since the password had to be something meaningful to the organizer and connected to their identity, we tested combinations involving:
+
+   * Organizer username
+   * Project name references
+   * Event-related keywords
+
+   The strongest clue pointed toward **ThunderCipher** as the likely password theme.
+
+6. **Archive Access**
+   Using the organizer-related password clue, we successfully unlocked the protected archive and extracted its contents.
+
+7. **Flag Retrieval**
+   Inside the archive, the correct flag was revealed in the format:
+   `ThunderCiphTer{flag}`
+
+8. **Conclusion / Learning Outcome**
+   This challenge emphasized:
+
+   * Careful reading of challenge hints
+   * Using OSINT techniques on public profiles
+   * Understanding that passwords in CTFs are often based on contextual clues rather than brute force
+
+9. **Final Note**
+   The key breakthrough came from correlating the organizer’s LinkedIn identity with their involvement in ThunderCipher, which led directly to the password theme and solved the challenge.

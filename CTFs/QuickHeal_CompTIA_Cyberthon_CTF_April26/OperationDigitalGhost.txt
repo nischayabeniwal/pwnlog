@@ -1,0 +1,16 @@
+Started with the given username "shubham4734singh"
+The word “repo” hinted toward a GitHub profile
+Explored GitHub and found a related username “.cybersky”
+Searched “shubham cybersky” on Google
+Found the portfolio website: https://shubhamcybersky.in/
+Visited the site and reviewed its content, but no flag was visible
+Tried common endpoints like:
+1. /robots.txt
+2. /flag
+3. /secret
+4. /hint
+
+These endpoints did not return anything useful on the live site
+Used the Wayback Machine to check archived versions of the website
+Retried the same endpoints on older snapshots
+The /flag endpoint in the archive successfully revealed the flag

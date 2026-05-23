@@ -1,0 +1,219 @@
+
+
+
+
+
+
+
+
+
+
+query {
+  users {
+    username
+    role
+    flagPart
+    flagOrder
+    secret
+    token
+    posts {
+      title
+      hiddenFlag
+      flagOrder
+      metadata {
+        secretData
+        dataOrder
+      }
+    }
+  }
+}
+
+{
+  "data": {
+    "users": [
+      {
+        "username": "system",
+        "role": "admin",
+        "flagPart": "Gr4phQL",
+        "flagOrder": "Part_1",
+        "secret": "admin_hash_7x9k2",
+        "token": "SYSTEM_FLAG_PART_1",
+        "posts": [
+          {
+            "title": "System Update",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Security Notice",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "User Guide",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Dev Notes",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Backup Schedule",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "API Documentation",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Server Config",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Database Stats",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          }
+        ]
+      },
+      {
+        "username": "cipher",
+        "role": "vip",
+        "flagPart": "4u7h0r1z4t10n",
+        "flagOrder": "Part_2",
+        "secret": "FLAG_encoded_base64",
+        "token": "CIPHER_FLAG_PART_2",
+        "posts": [
+          {
+            "title": "Internal Memo",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Meeting Notes",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Project Alpha",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Client Feedback",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Internal Access",
+            "hiddenFlag": "C0nf1d3nt1al",
+            "flagOrder": "Part_6",
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          }
+        ]
+      },
+      {
+        "username": "guest",
+        "role": "user",
+        "flagPart": "Byp4ss",
+        "flagOrder": "Part_3",
+        "secret": "no_access",
+        "token": "GUEST_FLAG_PART_3",
+        "posts": [
+          {
+            "title": "Weekly Report",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Team Chat",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          },
+          {
+            "title": "Code Review",
+            "hiddenFlag": null,
+            "flagOrder": null,
+            "metadata": {
+              "secretData": "PART_7:P0sts",
+              "dataOrder": "Part_7"
+            }
+          }
+        ]
+      },
+      {
+        "username": "test",
+        "role": "user",
+        "flagPart": "N3st3d",
+        "flagOrder": "Part_4",
+        "secret": "guest_token",
+        "token": "TEST_FLAG_PART_4",
+        "posts": []
+      }
+    ]
+  }
+}
