@@ -13,7 +13,7 @@ An attacker can manipulate database queries to:
 
 SQL Injection is one of the most dangerous web vulnerabilities because it directly affects the backend database.
 
---
+
 
 ## How SQL Injection Works
 
@@ -27,7 +27,7 @@ SELECT first_name, last_name FROM users WHERE user_id = '$id';
 
 If the application does not sanitize user input properly, attackers can inject their own SQL statements.
 
---
+
 
 ## Testing for SQL Injection
 
@@ -53,7 +53,7 @@ The error reveals SQL syntax problems caused by the injected quote.
 
 This confirms that the application is interacting unsafely with the database.
 
---
+
 
 # SQL Injection – Low Security
 
@@ -71,7 +71,7 @@ DVWA → SQL Injection
 DVWA Security Level → Low
 ```
 
---
+
 
 ## Basic SQL Injection Payload
 
@@ -95,7 +95,7 @@ Test the following payload:
 
 This demonstrates how attackers can manipulate SQL query logic.
 
---
+
 
 ## UNION-Based SQL Injection
 
@@ -115,7 +115,7 @@ UNION-based SQL Injection allows attackers to combine another SQL query with the
 
 If the number of columns matches correctly, the application displays injected data.
 
---
+
 
 ## Database Enumeration
 
@@ -145,7 +145,6 @@ After confirming UNION injection works, attackers can enumerate database informa
 
 This confirms successful interaction with the backend database.
 
---
 
 ## Table Enumeration
 
